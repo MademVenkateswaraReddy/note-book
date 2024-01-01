@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Dancing Script', sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+h1{
+  font-family: 'Recursive', sans-serif;
+  text-align: center;
+}
+
+.btn{
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}

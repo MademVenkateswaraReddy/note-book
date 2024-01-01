@@ -1,0 +1,40 @@
+.create-note-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-note-header .btn{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.create-note-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 4.4rem;
+    margin-top: 1rem;
+}
+.create-note-form input{
+    background-color: #444;
+    color: #fff;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dancing Script', sans-serif;
+}
+.create-note-form textarea{
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-family: 'Dancing Script', sans-serif;
+    padding-top: 5px;
+}
+::placeholder{
+    font-family: 'Dancing Script', sans-serif;
+}
